@@ -4,7 +4,6 @@ import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from preprocessing import preprocess_text
-from fuzzywuzzy import process
 
 # Load datasets
 business_df = pd.read_csv("../datasets/corrected_business_ideas.csv", encoding="ISO-8859-1")
